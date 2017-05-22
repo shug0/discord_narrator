@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-client.login(require('./token.js'))
+client.login(require('./config/token.js'))
 
 client.on('ready', () => {
 
