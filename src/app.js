@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-client.login('MzE0NzI1MTk5NDQwMzc5OTA0.C_8WMQ.cZFwXX8P9cnw-66-He8gZIixp1s')
+client.login(require('./token.js'))
 
 client.on('ready', () => {
 
