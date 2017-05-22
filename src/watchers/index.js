@@ -7,11 +7,10 @@ module.exports = (client, channel, voiceConnection) => {
       if (newMember.voiceChannelID === channel.id) {
         console.log(`${newMember.user.username} vient de se connecter au canal General.`)
 
-        const dispatcher = voiceConnection.playFile('./sounds/hello.mp3')
+        const dispatcher = voiceConnection.playFile('../assets/sounds/hello.mp3')
         dispatcher.setVolume(0.5)
       }
 
-      //console.log('newMember', _.pick(newMember, ['voiceChannelID']))
-
+      //console.log('newMember',_.pick(newMember, ['voiceChannelID']))
   })
 }
