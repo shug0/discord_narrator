@@ -1,4 +1,5 @@
-const _ = require('lodash')
+const _    = require('lodash')
+const path = require('path')
 
 module.exports = (client, channel, voiceConnection) => {
 
@@ -7,7 +8,7 @@ module.exports = (client, channel, voiceConnection) => {
       if (newMember.voiceChannelID === channel.id) {
         console.log(`${newMember.user.username} vient de se connecter au canal General.`)
 
-        const dispatcher = voiceConnection.playFile('../assets/sounds/hello.mp3')
+        const dispatcher = voiceConnection.playFile(path.join(process.cwd(), 'src', 'assets', 'sounds', 'hello.mp3'))
         dispatcher.setVolume(0.5)
       }
 
