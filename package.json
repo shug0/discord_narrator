@@ -1,5 +1,5 @@
 {
-  "name": "quintuples-venerations",
+  "name": "discord_narrator",
   "version": "1.0.0",
   "description": "[Add the bot to your server ](https://discordapp.com/oauth2/authorize?&client_id=314710432046776322&scope=bot&permissions=0)",
   "main": "app.js",
@@ -8,11 +8,11 @@
     "discord.js": "^11.1.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "opusscript": "^0.0.3"
+    "node-opus": "^0.2.6",
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodejs src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
