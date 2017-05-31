@@ -2,7 +2,9 @@
 A Narrator for your Discord bot.
 
 ## Features
-- WIP
+- Play a hello.mp3 file when someone connect to general
+- Play a panel of sound when type /play registeredSound
+  - You can stop the sound with /stop
 
 ## Installation
 [Click here if you just want to add it to your server without modifications](https://discordapp.com/oauth2/authorize?&client_id=314725199440379904&scope=bot&permissions=0)
