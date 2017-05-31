@@ -11,7 +11,7 @@ client.on('ready', () => {
 
       channel.join().then(voiceConnection => {
 
-        require('./watchers/index')(client, channel, voiceConnection)
+        require('./hooks/index')(client, channel, voiceConnection)
 
       })
     }

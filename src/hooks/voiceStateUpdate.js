@@ -7,7 +7,7 @@ module.exports = (client, channel, voiceConnection) => {
         // Log in console
         utils.log(`${newMember.user.username} vient de se connecter au canal General.`)
         // Play the hello.mp3 in the voice channel
-        voiceConnection.playArbitraryInput(utils.getSound('hello.mp3'), { volume: 0.5 })
+        voiceConnection.playArbitraryInput(utils.getSound('hello.mp3'), { volume: 0.3 })
       }
   })
 }
