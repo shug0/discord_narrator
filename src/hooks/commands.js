@@ -1,7 +1,9 @@
 const utils = require ('../common/utils.js')
 
 const playCommands = {
-  "stuga": utils.getSound('tu-sais-depuis-combien-de-temps-je-te-cherche.mp3'),
+  "je te cherche": utils.getSound('tu-sais-depuis-combien-de-temps-je-te-cherche.mp3'),
+  "se poser": utils.getSound('ne-moublier-pas-quand-vient-le-moment-de-se-poser.mp3'),
+  "votre bourse": utils.getSound('votre-bourse-est-trop-vide.mp3'),
   "darude": utils.getSound('darude.mp3'),
 }
 
