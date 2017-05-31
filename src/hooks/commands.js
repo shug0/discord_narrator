@@ -15,7 +15,7 @@ module.exports = (client, channel, voiceConnection) => {
         const fileToPlay = playCommands[toPlay]
 
         if (fileToPlay) {
-          const dispatcher = voiceConnection.playArbitraryInput(fileToPlay, { volume: 0.2 })
+          const dispatcher = voiceConnection.playArbitraryInput(fileToPlay, { volume: 1 })
           utils.registerAudioPlayer(client, dispatcher)
         }
         else {
