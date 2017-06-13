@@ -5,6 +5,8 @@ const playCommands = {
   "se poser": utils.getSound('ne-moublier-pas-quand-vient-le-moment-de-se-poser.mp3'),
   "votre bourse": utils.getSound('votre-bourse-est-trop-vide.mp3'),
   "darude": utils.getSound('darude.mp3'),
+  "fart": utils.getSound('fart_1.mp3'),
+  "fart2": utils.getSound('fart_2.mp3'),
 }
 
 module.exports = (client, channel, voiceConnection) => {
