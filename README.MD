@@ -1,4 +1,4 @@
-# Discord Narrator
+# 🤵🏻 Discord Narrator
 A Narrator for your Discord bot.
 
 ## Features
