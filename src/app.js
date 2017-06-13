@@ -16,3 +16,4 @@ client.on('ready', () => {
   })
 })
 
+client.on('debug', reason => console.log(reason))
