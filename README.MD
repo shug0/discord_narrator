@@ -4,7 +4,7 @@ A Narrator for your Discord bot.
 ## Features
 - Play a hello.mp3 file when someone connect to general
 - Play a panel of sound when type /play registeredSound
-  - You can stop the sound with /stop
+  - ~~You can stop the sound with /stop~~ (Removed for performance issue, need to find how create a clean voice stream dispatcher) 
 
 ## Installation
 [Click here if you just want to add it to your server without modifications](https://discordapp.com/oauth2/authorize?&client_id=314725199440379904&scope=bot&permissions=0)
