@@ -10,10 +10,9 @@ client.on('ready', () => {
     if (channel.type === 'voice' && channel.name === 'General') {
 
       channel.join().then(voiceConnection => {
-
         require('./hooks/index')(client, channel, voiceConnection)
-
       })
     }
   })
 })
+
